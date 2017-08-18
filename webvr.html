@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+     
+       <a-box position="-1 0.5 -3" rotation="45 45 45" 
+              color="#4CC3D9">
+           <a-animation attribute="rotation" repeat="indefinite" to="0 360 0"></a-animation>
+       </a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" rotation="45 45 45" color="#EF2D5E">
+         <a-animation attribute="rotation" repeat="indefinite" to="0 360 0"></a-animation>
+    </a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" rotation="45 0 0" color="#FFC65D">
+           <a-animation attribute="rotation" repeat="indefinite" to="0 360 0"></a-animation>
+      </a-cylinder>
+      
+      <a-sky src="lhs.jpeg"></a-sky>
+    </a-scene>
+  </body>
+</html>
